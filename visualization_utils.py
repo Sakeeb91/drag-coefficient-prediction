@@ -6,7 +6,10 @@ from matplotlib.patches import Rectangle
 import os
 
 # Set style for publication-quality plots
-plt.style.use('seaborn-v0_8')
+try:
+    plt.style.use('seaborn-v0_8')
+except:
+    plt.style.use('seaborn')
 sns.set_palette("husl")
 
 class DragCoefficientVisualizer:
