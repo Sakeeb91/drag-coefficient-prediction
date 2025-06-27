@@ -1,3 +1,22 @@
+"""
+Comprehensive Visualization Utilities for Physics-Guided Neural Networks
+
+This module provides publication-quality visualization tools for analyzing drag coefficient
+prediction models. The visualization approach emphasizes physics validation and follows
+best practices for scientific computing visualizations.
+
+Based on the Physics-Guided Neural Networks (PgNNs) framework:
+Faroughi, S. A., et al. (2023). "Physics-Guided, Physics-Informed, and Physics-Encoded 
+Neural Networks in Scientific Computing." arXiv preprint arXiv:2211.07377.
+https://arxiv.org/abs/2211.07377
+
+Features:
+- Multi-panel physics-based analysis plots
+- Cross-regime validation visualizations
+- Statistical analysis with confidence intervals
+- Professional presentation-ready outputs
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

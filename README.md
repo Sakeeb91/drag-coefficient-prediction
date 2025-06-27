@@ -40,6 +40,9 @@ This project demonstrates cutting-edge **Physics-Guided Neural Networks (PgNNs)*
 
 ## 🔬 **The Science Behind It**
 
+### **Theoretical Foundation**
+This project implements the **Physics-Guided Neural Networks (PgNNs)** framework as outlined in the comprehensive review by [Faroughi et al. (2023)](https://arxiv.org/abs/2211.07377), demonstrating the integration of domain physics knowledge with modern machine learning techniques.
+
 ### **Fluid Dynamics Foundation**
 Understanding drag is crucial in aerospace, automotive, and marine engineering. Our model captures the fundamental physics:
 
@@ -219,6 +222,9 @@ The project automatically generates:
 ├── 🧠 drag_coefficient_sklearn_model.py  # Main MLP implementation
 ├── 🎨 visualization_utils.py          # Comprehensive analysis suite
 ├── 📊 requirements.txt                # Dependency management
+├── 📄 LICENSE                        # MIT License
+├── 📚 CITATIONS.md                   # Academic references and citations
+├── 🤝 CONTRIBUTING.md                # Contribution guidelines
 ├── 📁 models/                        # Trained model artifacts
 │   └── 💾 drag_coefficient_sklearn_model.pkl
 ├── 📁 visualizations/                # Generated analysis plots
@@ -314,6 +320,8 @@ If this project helped you, please consider giving it a star! ⭐
 ---
 
 **© 2025 | Built with ❤️ and ☕ | Physics meets Machine Learning**
+
+📚 **[View Academic References](CITATIONS.md)** • 🤝 **[Contributing Guidelines](CONTRIBUTING.md)** • 📄 **[MIT License](LICENSE)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Sakeeb91-black?style=for-the-badge&logo=github)](https://github.com/Sakeeb91)
 

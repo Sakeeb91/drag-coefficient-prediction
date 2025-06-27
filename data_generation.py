@@ -1,3 +1,21 @@
+"""
+Physics-Guided Neural Network for Drag Coefficient Prediction - Data Generation
+
+This module generates synthetic drag coefficient data based on empirical fluid mechanics
+correlations. The approach follows the Physics-Guided Neural Networks (PgNNs) framework
+as outlined in:
+
+Faroughi, S. A., et al. (2023). "Physics-Guided, Physics-Informed, and Physics-Encoded 
+Neural Networks in Scientific Computing." arXiv preprint arXiv:2211.07377.
+https://arxiv.org/abs/2211.07377
+
+The empirical drag coefficient correlation is based on established fluid mechanics:
+    Cd = 24/Re + 6/(1+√Re) + 0.4
+
+This correlation is valid for Reynolds numbers up to ~2×10^5 and captures the physics
+across all flow regimes: Stokes flow (Re<1), intermediate (1<Re<1000), and inertial (Re>1000).
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

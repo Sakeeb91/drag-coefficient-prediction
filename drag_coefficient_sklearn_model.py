@@ -1,3 +1,21 @@
+"""
+Physics-Guided Neural Network for Drag Coefficient Prediction - Scikit-Learn Implementation
+
+This module implements a Multi-Layer Perceptron (MLP) using scikit-learn to predict drag
+coefficients based on Reynolds numbers. The approach follows the Physics-Guided Neural 
+Networks (PgNNs) framework as outlined in:
+
+Faroughi, S. A., et al. (2023). "Physics-Guided, Physics-Informed, and Physics-Encoded 
+Neural Networks in Scientific Computing." arXiv preprint arXiv:2211.07377.
+https://arxiv.org/abs/2211.07377
+
+Key features:
+- Physics-informed feature engineering (log Reynolds number transformation)
+- Domain knowledge integration through empirical correlations
+- Cross-regime validation (Stokes, intermediate, inertial flow)
+- Comprehensive visualization and physics-based analysis
+"""
+
 import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPRegressor
